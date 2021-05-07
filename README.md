@@ -8,3 +8,6 @@ A python simple implementation of a password manager that use **pycryptodome** f
 - When inserting a new record to the database Its not allowed to use your own password. We generate a random new password for you.
 - All encryptions are done using AES mode with key being driven using the password and password salt being passed to **PBKDF** function.
 - The csv file is being encrypted using AES_GCM mode with 128 bit key.
+
+### How to run ?
+run the program by running ```python3 password.py``` make sure all other files ```database.py``` and ```helper.py``` are in the same directory and that ```pycryptodome``` is installed.
